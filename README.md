@@ -1,6 +1,8 @@
 # 1294C Chromatic Library from Push Back
 
-Simple Motion Control Library for VEX V5 based off PROS 4.
+Simple Motion Control Library for VEX V5.
+
+Requirements: PROS 4.
 
 To get started, run the following commands to set up your PROS environment
 ```
