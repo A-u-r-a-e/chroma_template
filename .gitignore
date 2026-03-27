@@ -1,0 +1,6 @@
+.cache/
+.d
+.vscode
+.zed
+bin/
+compile_commands.json
