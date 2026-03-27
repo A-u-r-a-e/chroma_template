@@ -12,11 +12,11 @@ pros build-compile-commands
 
 ## Key Files 
 This includes both the header .hpp in include/ and the source .cpp in src/.
-**main** -- no way
-**subsystems** -- allows you control subsystems. use the header file's Body enum to name the states, and modify set_body and update_body in the .cpp
-**lidar** -- use the empty side and fwd reset functions to begin writing distance resets. or just use your own interpretation
-**config** -- all parameters and configuration things are here. very nice
-**autons** -- all your autons are here. be careful that for the auton selector to work, you also need to update the competition initialize to match the autons you have as well as the autons.hpp enum and naming enum and functions.
+- **main** -- no way
+- **subsystems** -- allows you control subsystems. use the header file's Body enum to name the states, and modify set_body and update_body in the .cpp
+- **lidar** -- use the empty side and fwd reset functions to begin writing distance resets. or just use your own interpretation
+- **config** -- all parameters and configuration things are here. very nice
+- **autons** -- all your autons are here. be careful that for the auton selector to work, you also need to update the competition initialize to match the autons you have as well as the autons.hpp enum and naming enum and functions.
 
 ## Feature List
 We have a lot of features, and some of them have very cursed documentation of what their parameters do.
